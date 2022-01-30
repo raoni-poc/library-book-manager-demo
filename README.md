@@ -1,4 +1,4 @@
-#Simples crud de livros SPA
+# Simples crud de livros SPA
 
 Aplicação é dividade em duas partes
 
@@ -6,16 +6,13 @@ A primeira é uma api rest com laravel 5.8, a segunda é um spa com angular 8;
 
 Foi usado:
  
- php 7.3
- 
- mysql 8
- 
- angular cli 8.3.0
- 
- node 10.16.3
+ - php 7
+ - mysql 8
+ - angular cli 8
+ - node 10
 
 
-Para o laravel é necessario configurar uma base de dados mysql. Dentro pasta da api editar as configuração de conexão no
+É necessario configurar uma base de dados mysql que será usada para o laravel. Dentro pasta da api editar as configuração de conexão no
 arquivo .env de acordo com seu ambiente
 
     DB_CONNECTION=mysql
